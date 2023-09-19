@@ -266,7 +266,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    JavaScript
+                    HTML, CSS, SCSS, React, JavaScript
                   </div>
                 </div>
               </Fade>
