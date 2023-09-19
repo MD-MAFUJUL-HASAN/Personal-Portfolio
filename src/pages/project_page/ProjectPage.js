@@ -342,7 +342,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                JavaScript
+                                HTML, CSS, SCSS, React, JavaScript
                               </div>
                             </div>
                           </Fade>
