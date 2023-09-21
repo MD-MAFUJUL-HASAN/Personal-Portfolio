@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1nM5gF55CUYcStd6d0d0l76YyLtzRnn9Q/preview";
+  "https://raw.githubusercontent.com/MD-MAFUJUL-HASAN/Personal-Portfolio/main/src/assets/MD_MAFUJUL_HASAN.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
@@ -43,7 +43,7 @@ function Resume() {
               </div>
               <div className="resume d-flex justify-content-center">
                 <Document file={resumeLink}>
-                  <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
+                  <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
                 </Document>
               </div>
               <div className="d-flex justify-content-center">
