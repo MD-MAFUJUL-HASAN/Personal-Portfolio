@@ -12,11 +12,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const resumeLink =
   "https://raw.githubusercontent.com/MD-MAFUJUL-HASAN/Personal-Portfolio/main/src/assets/MD_MAFUJUL_HASAN.pdf";
 
-const Resume = () => {
+function Resume() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
-    
     setWidth(window.innerWidth);
   }, []);
 
@@ -36,35 +35,23 @@ const Resume = () => {
               </Zoom>
             </div>
             <div fluid className="certificate-section" id="about">
-              <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-        </Row>
-
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-        </Row>
+              <div className="d-flex justify-content-center mt-4">
+                <Button variant="primary" href={pdf} target="_blank">
+                  <AiOutlineDownload />
+                  &nbsp;Download Resume
+                </Button>
+              </div>
+              <div className="resume d-flex justify-content-center">
+                <Document file={resumeLink}>
+                  <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
+                </Document>
+              </div>
+              <div className="d-flex justify-content-center">
+                <Button variant="primary" href={pdf} target="_blank">
+                  <AiOutlineDownload />
+                  &nbsp;Download Resume
+                </Button>
+              </div>
             </div>
           </Container>
         </Container>
