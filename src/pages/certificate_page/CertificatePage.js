@@ -9,6 +9,7 @@ import nactar from "../../images/nactar.jpg";
 import ccna from "../../images/CCNA_Certificate.jpg";
 import cbta from "../../images/CBT&A.pdf";
 import c from "../../images/c.jpg";
+import skill from "../../images/skill.png";
 import graphics from "../../images/Graphics_Design.jpg";
 import Particle from "../../Particle";
 export default function CertificatePage() {
@@ -345,6 +346,58 @@ export default function CertificatePage() {
                                 >
                                   -National Academy for Computer Training and
                                   Research (NACTAR), Bogura.
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4}>
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href="https://skill.jobs/skill-assessment/badge/md-mafujul-hasan-UnqAQJKO/microsoft-powerpoint-GV5i0zKW"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={skill}
+                                        alt={skill}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Microsoft PowerPoint.
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  -Skill Jobs.
                                 </h3>
                               </div>
                             </div>
