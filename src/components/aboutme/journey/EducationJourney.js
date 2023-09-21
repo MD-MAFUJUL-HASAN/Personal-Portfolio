@@ -47,7 +47,7 @@ function EducationJourney() {
           </h4>
           <p>
             Studied here from Class 1 to 10th as a part of secondary school
-            Certificate.
+            Certificate and gain GPA 5 in my SSC Examination.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
