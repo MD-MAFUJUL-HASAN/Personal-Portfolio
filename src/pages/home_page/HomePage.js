@@ -97,7 +97,7 @@ export default function Home() {
                 <Tilt>
                   <Fade cascade>
                     <img
-                      src="./favicon.ico"
+                      src="./profile.png"
                       alt="home pic"
                       className="img-fluid"
                     />
