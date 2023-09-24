@@ -7,6 +7,8 @@ import c from "../../images/c.jpg";
 import skill from "../../images/skill.png";
 import problem_solving from "../../images/problem_solving.png";
 import python from "../../images/python.png";
+import iq from "../../images/IQ_Test.jpg";
+import computer from "../../images/Computer_knowledge.jpg";
 import Fade from "react-reveal/Fade";
 
 export default function Certificate() {
@@ -55,7 +57,20 @@ export default function Certificate() {
               <img src={c} alt="" style={{ width: "100%", height: "100%" }} />
             </Col>
             <Col md={4}>
-              <img src={skill} alt="" style={{ width: "100%", height: "100%" }}
+              <img
+                src={skill}
+                alt=""
+                style={{ width: "100%", height: "100%" }}
+              />
+            </Col>
+            <Col md={4}>
+              <img src={iq} alt="" style={{ width: "100%", height: "100%" }} />
+            </Col>
+            <Col md={4}>
+              <img
+                src={computer}
+                alt=""
+                style={{ width: "100%", height: "100%" }}
               />
             </Col>
           </Row>
