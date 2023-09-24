@@ -14,7 +14,7 @@ export default function Contactus() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!(formData.name && formData.email && formData.message)) {
@@ -22,10 +22,20 @@ export default function Contactus() {
       return;
     }
 
-    alert(`Thanks ${formData.name}, I will shortly connect with you!`);
-    axios.post("https://formspree.io/f/mnqwzopy", formData, {
-      Accept: "application/json",
-    });
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/api/submitForm",
+        formData
+      );
+      console.log(response.data.message); // Log the response from the backend
+
+      alert(`Thanks ${formData.name}, I will shortly connect with you!`);
+    } catch (error) {
+      console.error("Error submitting the form:", error);
+
+      alert("Something went wrong while submitting the form.");
+    }
+
     setFormData({});
   };
 
