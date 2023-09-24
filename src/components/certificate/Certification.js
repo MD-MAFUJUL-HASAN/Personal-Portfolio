@@ -61,7 +61,7 @@ export default function Certification() {
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          -HackerRank
+                          - HackerRank
                         </h3>
                       </div>
                     </div>
@@ -105,7 +105,7 @@ export default function Certification() {
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          -Bangladesh Technical Education Board
+                          - Bangladesh Technical Education Board
                         </h3>
                       </div>
                     </div>
@@ -148,7 +148,7 @@ export default function Certification() {
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          -HackerRank
+                          - HackerRank
                         </h3>
                       </div>
                     </div>
