@@ -8,8 +8,10 @@ import nh from "../../images/nh.jpg";
 import nactar from "../../images/nactar.jpg";
 import ccna from "../../images/CCNA_Certificate.jpg";
 import cbta from "../../images/CBT&A.pdf";
-import c from "../../images/c.jpg";
 import skill from "../../images/skill.png";
+import c from "../../images/c.jpg";
+import iq from "../../images/IQ_Test.jpg";
+import computer from "../../images/Computer_knowledge.jpg";
 import graphics from "../../images/Graphics_Design.jpg";
 import Particle from "../../Particle";
 export default function CertificatePage() {
@@ -81,7 +83,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -HackerRank
+                                  - HackerRank
                                 </h3>
                               </div>
                             </div>
@@ -134,7 +136,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -Bangladesh Technical Education Board
+                                  - Bangladesh Technical Education Board
                                 </h3>
                               </div>
                             </div>
@@ -186,7 +188,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -HackerRank
+                                  - HackerRank
                                 </h3>
                               </div>
                             </div>
@@ -239,7 +241,8 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -New Horizons Computer Learning Centers, Dhaka
+                                  - New Horizons Computer Learning Centers,
+                                  Dhaka.
                                 </h3>
                               </div>
                             </div>
@@ -291,7 +294,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -National Academy for Computer Training and
+                                  - National Academy for Computer Training and
                                   Research (NACTAR), Bogura.
                                 </h3>
                               </div>
@@ -335,7 +338,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Graphics Design Basic : Creative Fundamentals.
+                                  Graphics Design Basic : Creative Fundamentals
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -344,7 +347,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -National Academy for Computer Training and
+                                  - National Academy for Computer Training and
                                   Research (NACTAR), Bogura.
                                 </h3>
                               </div>
@@ -388,7 +391,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Certified for Microsoft PowerPoint.
+                                  Certified for Microsoft PowerPoint
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -397,7 +400,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -Skill Jobs.
+                                  - Skill Jobs.
                                 </h3>
                               </div>
                             </div>
@@ -440,7 +443,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Certified for Microsoft Windows.
+                                  Certified for Microsoft Windows
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -449,7 +452,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -Skill Jobs.
+                                  - Skill Jobs.
                                 </h3>
                               </div>
                             </div>
@@ -492,7 +495,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Certified for Microsoft Excel.
+                                  Certified for Microsoft Excel
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -501,7 +504,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -Skill Jobs.
+                                  - Skill Jobs.
                                 </h3>
                               </div>
                             </div>
@@ -544,7 +547,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Career Doctor Report.
+                                  Career Doctor Report
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -553,7 +556,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -Skill Jobs.
+                                  - Skill Jobs.
                                 </h3>
                               </div>
                             </div>
@@ -606,7 +609,111 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  -HackerRank
+                                  - HackerRank
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4} className="col-sm-12 col-md4">
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href={iq}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={iq}
+                                        alt={iq}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  IQ - Test
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  US-Bangla Express Ltd.
+                                </h3>
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={4} className="col-sm-12 col-md4">
+                          <Fade bottom duration={2000} distance="20px">
+                            <div className="cert-card">
+                              <div className="content">
+                                <a
+                                  href={computer}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <div className="content-overlay"></div>
+                                  <div
+                                    className="cert-header"
+                                    style={{ backgroundColor: "white" }}
+                                  >
+                                    {
+                                      <img
+                                        className="logo_img"
+                                        src={computer}
+                                        alt={computer}
+                                      />
+                                    }
+                                  </div>
+                                  <div className="content-details fadeIn-top">
+                                    <h3
+                                      className="content-title"
+                                      style={{ color: "black" }}
+                                    >
+                                      Certificate
+                                    </h3>
+                                  </div>
+                                </a>
+                              </div>
+                              <div className="cert-body">
+                                <h2
+                                  className="cert-body-title"
+                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                >
+                                  Computer Knowledge Test
+                                </h2>
+                                <h3
+                                  className="cert-body-subtitle"
+                                  style={{
+                                    color: "#eb90ff",
+                                    marginBottom: "0px",
+                                  }}
+                                >
+                                  US-Bangla Express Ltd.
                                 </h3>
                               </div>
                             </div>
