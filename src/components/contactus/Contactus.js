@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import axios from "axios";
 import { useState } from "react";
-import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineSend } from "react-icons/ai";
 import { FiPhone, FiAtSign } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
