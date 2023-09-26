@@ -33,7 +33,7 @@ export default function Contactus() {
     } catch (error) {
       console.error("Error submitting the form:", error);
 
-      alert("Something went wrong while submitting the form.");
+      alert("Backend Server was not Running while submitting the form.");
     }
 
     setFormData({});
