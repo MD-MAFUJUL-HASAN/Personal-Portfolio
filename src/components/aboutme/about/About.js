@@ -29,7 +29,7 @@ const About = () => {
             <Fade duration={3000}>
               <p className="home-about-body">
                 My name is <b className="purple">MD Mafujul Hasan </b> 
-                  and I am a <b className="purple">computer science and engineering </b> 
+                  and I am a <b className="purple">Computer Science and Engineering </b> 
                     student at <b className="purple">Sonargaon University </b>
                       in Dhaka, Bangladesh.
                 <br />
