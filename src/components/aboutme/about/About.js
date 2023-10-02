@@ -53,7 +53,7 @@ const About = () => {
                 products with &nbsp;
                   <b className="purple">
                     {" "}
-                    Modern Javascript Library and Frameworks
+                    Modern Javascript Library and Frameworks.
                   </b>
                 <br />
                 <br />In my free time, I enjoy learning new technologies and &nbsp;
