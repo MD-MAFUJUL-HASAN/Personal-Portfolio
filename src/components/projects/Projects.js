@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
 import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
 import pp from "../../images/portfolio.png";
@@ -13,18 +12,18 @@ import { HiArrowRight } from "react-icons/hi";
 export default function Projects() {
   return (
     <div>
-      <Container fluid className="project-section" id="about">
+      <Container fluid className="certificate-section" id="about">
         <Container>
           <Row>
             <Col
               md={12}
-              className="project-description d-flex justify-content-start"
+              className="certificate-description d-flex justify-content-start"
             >
               <Zoom left cascade>
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -86,7 +85,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -148,7 +147,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
