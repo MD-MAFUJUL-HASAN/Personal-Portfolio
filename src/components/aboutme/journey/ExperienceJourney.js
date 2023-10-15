@@ -40,7 +40,7 @@ function ExperienceJourney() {
           icon={<PersonIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            Excel Telecom Pvt. Ltd.
+            Excel Telecom (Pvt.) Limited - (National Distributor of SAMSUNG in Bangladesh)
           </h4>
           <h3 className="vertical-timeline-element-subtitle mt-2">
             Management of Information System
