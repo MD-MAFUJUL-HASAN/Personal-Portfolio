@@ -33,11 +33,12 @@ function ProjectJourney() {
           <h1>Project Journey</h1>
         </Flip>
       </div>
+      <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -49,7 +50,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -61,7 +62,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -73,7 +74,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -85,7 +86,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -93,12 +94,11 @@ function ProjectJourney() {
             Online Payroll management System
           </h3>
         </VerticalTimelineElement>
-        <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<HtmlIcon />}
         >
@@ -110,7 +110,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CodeIcon />}
         >
@@ -122,7 +122,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2021"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -134,7 +134,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2021"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -146,7 +146,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2020"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -158,7 +158,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2020"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -170,7 +170,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2019"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CodeIcon />}
         >
