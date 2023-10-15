@@ -39,12 +39,12 @@ function ExperienceJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
         >
-          <h4 className="vertical-timeline-element-title">
+          <h5 className="vertical-timeline-element-title">
             Excel Telecom (Pvt.) Limited - (National Distributor of SAMSUNG in Bangladesh)
-          </h4>
-          <h3 className="vertical-timeline-element-subtitle mt-2">
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">
             Management of Information System
-          </h3>
+          </h6>
           <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
             data to facilitate the achievement of organizational aims and objectives.</p>
           <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
