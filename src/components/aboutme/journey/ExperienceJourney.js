@@ -45,11 +45,18 @@ function ExperienceJourney() {
           <h4 className="vertical-timeline-element-subtitle mt-2">
             Management of Information System
           </h4>
-          <p>Able to do repetitive tasks accurately.</p>
-          <p>Preparing reports in MS Excel.</p>
-          <p>Maintain Sales Report in ERP.</p>
-          <p>Keep close coordination with co-worker and update information.</p>
-          <p>Transfer up to date information to top management.</p>
+          <p>Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
+            data to facilitate the achievement of organizational aims and objectives.</p>
+          <p>Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
+            tools for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
+          <p>Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining 
+            effective communication between the company and employees.</p>
+          <p>Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates, 
+            and providing corresponding reports to top management.</p>
+          <p>Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly, 
+            and year-end closing, and submitting reports in accordance with management requirements.</p>
+          <p>Proficient in developing and maintaining various reporting dashboard, technical support to end-users, 
+            diagnosing hardware and software issues, and collaborating with IT teams to promptly resolve system-related problems.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
