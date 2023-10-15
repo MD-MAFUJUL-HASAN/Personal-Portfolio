@@ -38,7 +38,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2023"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -50,7 +50,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2023"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -62,7 +62,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2023"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -74,7 +74,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2023"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -86,7 +86,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2023"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -98,7 +98,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2022"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<HtmlIcon />}
         >
@@ -110,7 +110,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2022"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CodeIcon />}
         >
@@ -122,7 +122,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2021"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -134,7 +134,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2021"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -146,7 +146,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2020"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
@@ -158,7 +158,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2020"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
@@ -170,7 +170,7 @@ function ProjectJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2019"
+          date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CodeIcon />}
         >
