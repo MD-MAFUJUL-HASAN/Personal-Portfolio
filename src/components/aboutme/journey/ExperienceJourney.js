@@ -34,7 +34,7 @@ function ExperienceJourney() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
           date="01/12/2023 - 05/01/2024"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
