@@ -35,6 +35,33 @@ function ExperienceJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date="01/12/2023 - 05/01/2024"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Excel Telecom (Pvt.) Limited - (National Distributor of SAMSUNG in Bangladesh)
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">
+            Management of Information System
+          </h6>
+          <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
+            data to facilitate the achievement of organizational aims and objectives.</p>
+          <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
+            tools for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
+          <p>• Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining 
+            effective communication between the company and employees.</p>
+          <p>• Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates, 
+            and providing corresponding reports to top management.</p>
+          <p>• Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly, 
+            and year-end closing, and submitting reports in accordance with management requirements.</p>
+          <p>• Proficient in developing and maintaining various reporting dashboard, technical support to end-users, 
+            diagnosing hardware and software issues, and collaborating with IT teams to promptly resolve system-related problems.</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date="2021 - 2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
