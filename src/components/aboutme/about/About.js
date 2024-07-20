@@ -28,16 +28,16 @@ const About = () => {
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                My name is <b className="purple">MD Mafujul Hasan </b> 
+                My name is <b className="purple">K Dhanush Manikanta</b> 
                   and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                    student at <b className="purple">VIT University </b>
+                      in Amaravati, Andhra Pradesh.
                 <br />
                 <br />
                         I am proficient in various programming languages such as &nbsp;
                   <b className="purple">
                     {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
+                    C, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
                   </b>
                 <br />
                 <br />
@@ -45,7 +45,7 @@ const About = () => {
 
                   <b className="purple">
                     {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
+                    NodeJS, OpenCV, Pandas, and NumPy.{" "}
                   </b>
                 <br />
                 <br />
@@ -53,11 +53,11 @@ const About = () => {
                 products with &nbsp;
                   <b className="purple">
                     {" "}
-                    Modern Javascript Library and Frameworks.
+                    Data science and AI.
                   </b>
                 <br />
                 <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                  <b className="purple">building new projects in AI and ML . </b>
               </p>
             </Fade>
           </Col>
