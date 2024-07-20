@@ -43,11 +43,11 @@ function EducationJourney() {
             SECONDARY SCHOOL CERTIFICATE
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            BOF High School, Gazipur
+            SASI E.M HIGH SCHOOL, Tanuku
           </h4>
           <p>
-            Studied here from Class 1 to 10th as a part of secondary school
-            Certificate and gain GPA 5 in my SSC Examination.
+            Studied here in 10th as a part of secondary school
+            Certificate and gain marks 1000/1000 in my SSC Examination.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -59,14 +59,14 @@ function EducationJourney() {
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            DIPLOMA IN ENGINEERING
+            INTERMIDATE 
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Dhaka Polytechnic Institute, Dhaka
+            SASI JR collage, Velivennu
           </h4>
           <p>
             Studied Diploma in Computer Technology from Dhaka Polytechnic
-            institute and gain CGPA 2.98.
+            institute and gain Marks 972/1000.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -79,11 +79,11 @@ function EducationJourney() {
         >
           <h4 className="vertical-timeline-element-title">GRADUATION</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
+            VIT University, AP
           </h4>
           <p>
-            Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
+            Studied Bachelor of technology degree in Computer Science and
+            Engineering field from VIT University and gain CGPA 9.04.
           </p>
         </VerticalTimelineElement>
 
