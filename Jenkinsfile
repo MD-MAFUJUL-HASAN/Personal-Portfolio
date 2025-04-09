@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Creating resources on AWS EC2 using terraform script......'
                 sh '''
-                cd ../../terraform/project
+                cd ./terraform/
                 terraform validate
                 terraform apply
                 '''
