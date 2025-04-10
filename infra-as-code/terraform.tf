@@ -12,8 +12,8 @@ terraform {
   #   key    = "prod/aws_infra"
   #   region = "us-east-1"
 
-    # dynamodb_table = "mytestdynamodbtable"
-    # encrypt = true
+  # dynamodb_table = "mytestdynamodbtable"
+  # encrypt = true
   # }
   required_version = ">=1.11.2"
   required_providers {

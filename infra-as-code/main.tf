@@ -46,6 +46,11 @@ resource "tls_private_key" "generated" {
 resource "local_file" "storing_private_key_in_local_system" {
   filename = var.key_pair_name
   content  = tls_private_key.generated.private_key_pem
+
+  lifecycle {
+    prevent_destroy = true
+    ignore_changes  = [public_key]
+  }
 }
 
 /*
