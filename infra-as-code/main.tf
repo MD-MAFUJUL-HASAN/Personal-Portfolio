@@ -255,18 +255,10 @@ module "module" {
   module to create s3 bucket to aws 
 */
 
-module "s3-bucket" {
-  source  = "terraform-aws-modules/s3-bucket/aws"
-  version = "4.6.0"
-}
-
-output "domain_name" {
-  value = module.s3-bucket.s3_bucket_bucket_domain_name
-}
-
-output "expose_public_ip" {
-  value = aws_instance.test_instance.public_ip
-}
+# module "s3-bucket" {
+#   source  = "terraform-aws-modules/s3-bucket/aws"
+#   version = "4.6.0"
+# }
 
 /*
   local variable 

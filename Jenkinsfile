@@ -22,7 +22,7 @@ pipeline {
             steps {
                 echo 'Fetching public ip of ec2 resource'
                 sh '''  
-                PUBLIC_IP_ADDRESS=$(terraform output -json instance_ips | jq -r '.[0]')
+                PUBLIC_IP_ADDRESS=$(terraform output expose_public_ip_address)
                 echo "[WEB_SERVER] > ./ansible/inventory"
                 echo "${PUBLIC_IP_ADDRESS}" >> ./ansibe/inventory
                 echo "${PUBLIC_IP_ADDRESS} ansible_user=ubuntu ansible_ssh_private_key_file="./terraform/MyEC2InstanceLoginKey" ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> ./ansibe/inventory
