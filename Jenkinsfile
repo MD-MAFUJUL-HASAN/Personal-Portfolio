@@ -17,6 +17,15 @@ pipeline {
                 terraform apply --auto-approve
                 '''
             }
+            post{
+                failure {
+                    echo "Deleting the resources if resources creation get fails"
+                    sh '''
+                    cd ./infra-as-code/
+                    terraform destroy --auto-approve
+                    '''
+                } 
+            }
         }
         stage('Fetch public Ip of EC2 machine') {
             steps {
