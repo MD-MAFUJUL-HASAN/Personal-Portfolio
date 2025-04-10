@@ -49,7 +49,7 @@ resource "local_file" "storing_private_key_in_local_system" {
 
   lifecycle {
     prevent_destroy = true
-    ignore_changes  = [public_key]
+    ignore_changes  = [content]
   }
 }
 
