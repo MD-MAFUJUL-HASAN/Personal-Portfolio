@@ -7,7 +7,9 @@ pipeline {
                 echo 'Creating resources on AWS EC2 using terraform script......'
                 sh '''
                 cd ./infra-as-code/
+                terraform init
                 terraform validate
+                terraform plan
                 terraform apply
                 '''
             }
