@@ -35,7 +35,7 @@ pipeline {
                 mkdir -p './ansible'
                 echo "[WEB_SERVER] > ./ansible/inventory"
                 echo "${PUBLIC_IP_ADDRESS}" >> ./ansible/inventory
-                echo "${PUBLIC_IP_ADDRESS} ansible_user=ubuntu ansible_ssh_private_key_file="./terraform/MyEC2InstanceLoginKey" ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> ./ansibel/inventory
+                echo "${PUBLIC_IP_ADDRESS} ansible_user=ubuntu ansible_ssh_private_key_file="./terraform/MyEC2InstanceLoginKey" ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> ./ansible/inventory
                 '''
             }
         }
