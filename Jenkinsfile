@@ -31,7 +31,8 @@ pipeline {
             steps {
                 echo 'Fetching public ip of ec2 resource'
                 sh '''  
-                PUBLIC_IP_ADDRESS=$(terraform output expose_public_ip_address)
+                PUBLIC_IP_ADDRESS=$(terraform output -raw expose_public_ip_address)
+                echo $PUBLIC_IP_ADDRESS
                 mkdir -p './ansible'
                 echo "[WEB_SERVER]" > ./ansible/inventory
                 cat ./ansible/inventory
