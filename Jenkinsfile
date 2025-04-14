@@ -52,7 +52,7 @@ pipeline {
                 echo 'Deploy the code using ansible on newly created resources by terraform'
                 sh '''
                     cd $WORKSPACE
-                    ansible-playbook -i ./ansible/inventory ./ansible/deploy.yaml
+                    ansible-playbook -i ./ansible/inventory ./ansible/deploy.yml
                 '''
             }
         }
