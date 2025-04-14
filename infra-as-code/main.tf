@@ -271,3 +271,9 @@ module "module" {
 #   server_name = "ec2_${aws_instance.test_instance}_${var.instance_type}"
 #   tags = "ec2servertest"
 # }
+
+output "expose_public_ip_address" {
+  description = "expose the public ip address of newly created ec2 instance"
+  value       = aws_instance.test_instance.public_ip
+  // sensitive   = true
+}
