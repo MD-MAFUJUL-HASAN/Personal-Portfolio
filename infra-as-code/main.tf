@@ -219,6 +219,7 @@ resource "aws_instance" "test_instance" {
     command = "chmod 400 ${local_file.storing_private_key_in_local_system.filename}"
   }
 
+  /***
   provisioner "remote-exec" {
     inline = [
       "sudo apt-get update",
@@ -226,6 +227,8 @@ resource "aws_instance" "test_instance" {
       "sudo systemctl start apache2"
     ]
   }
+
+  ***/
 
   provisioner "file" {
     source      = "file-exe.txt"
