@@ -39,6 +39,14 @@ pipeline {
                 '''
             }
         }
+        stage('check ansible installed'){
+            steps {
+                echo "checking ansible version"
+                sh '''
+                    ansible --version
+                    '''
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploy the code using ansible on newly created resources by terraform'
