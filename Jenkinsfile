@@ -31,13 +31,15 @@ pipeline {
             steps {
                 echo 'Fetching public ip of ec2 resource'
                 sh '''  
-                PUBLIC_IP_ADDRESS=$(terraform output -raw expose_public_ip_address)
+                cd ./infra-as-code/
+                terraform refresh
+                PUBLIC_IP_ADDRESS=$(terraform output expose_public_ip_address)
                 echo $PUBLIC_IP_ADDRESS
-                mkdir -p './ansible'
-                echo "[WEB_SERVER]" > ./ansible/inventory
-                cat ./ansible/inventory
-                echo "${PUBLIC_IP_ADDRESS} ansible_user=ubuntu ansible_ssh_private_key_file="./terraform/MyEC2InstanceLoginKey" ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> ./ansible/inventory
-                cat ./ansible/inventory
+                mkdir -p '../ansible'
+                echo "[WEB_SERVER]" > ../ansible/inventory
+                cat ../ansible/inventory
+                echo "${PUBLIC_IP_ADDRESS} ansible_user=ubuntu ansible_ssh_private_key_file="MyEC2InstanceLoginKey" ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> ../ansible/inventory
+                cat ../ansible/inventory
                 '''
             }
         }
