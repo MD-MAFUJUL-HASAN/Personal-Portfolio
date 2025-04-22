@@ -1,6 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
+/**
+ * Typing Component
+ * This component renders a typewriter effect with a list of professions.
+ */
 function Typing() {
     return (
         <Typewriter
@@ -10,10 +14,10 @@ function Typing() {
                     "Software Engineer",
                     "Frontend Developer",
                     "Backend Developer",
-                ],
-                autoStart: true,
-                loop: true,
-                deleteSpeed: 50,
+                ], // List of strings to display
+                autoStart: true, // Automatically start the typewriter effect
+                loop: true, // Loop the typewriter effect indefinitely
+                deleteSpeed: 50, // Speed of deleting characters in milliseconds
             }}
         />
     );
