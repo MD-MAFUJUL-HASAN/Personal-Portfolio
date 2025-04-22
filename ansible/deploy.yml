@@ -1,0 +1,49 @@
+- name: Playbook for deploying the website on ec2 server 
+  become: true
+  hosts: all
+  tasks: 
+
+    # - name: "Install git"
+    #   apt: 
+    #     name: {{ item }}
+    #     state: present
+    #     update_cache: yes
+    #   item: 
+    #     - git
+    #     - nodejs
+    #     - npm
+
+    - name: "Install git"
+      apt: 
+        name: git
+        state: present
+        update_cache: yes
+
+    - name: "Run node dependecies"
+      apt: 
+        name: nodejs
+        state: present
+      notify: Install npm
+
+    - name: "Creating project folder"
+      command: mkdir project-demo
+      args:   
+        chdir: /home/ubuntu
+
+    - name: "Clone website repo"
+      git:
+        repo: 'https://github.com/Ayushi-gupta2001/Personal-Portfolio'
+        dest: /home/ubuntu/project-demo
+        version: test
+
+    - name: "Install dependecies"
+      command: npm Install
+      args: 
+        chdir: /home/ubuntu/project-demo 
+
+    - name: "Start the app on server"
+      command: npm start
+      args:
+        chdir: /home/ubuntu/project-demo
+
+
